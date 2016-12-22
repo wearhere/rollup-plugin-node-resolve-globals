@@ -10,7 +10,6 @@ export default {
     // Cases (uncomment code to see):
 
     // 1. no nodeResolve - works
-    // // nodeResolve()
 
     // 2. nodeResolve - fails even though it should work?
     // nodeResolve()
