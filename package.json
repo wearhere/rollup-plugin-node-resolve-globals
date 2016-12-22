@@ -1,0 +1,24 @@
+{
+  "name": "rollup-plugin-node-resolve-globals",
+  "version": "1.0.0",
+  "description": "Test case for issue using rollup's `globals` option and `rollup-plugin-node-resolve` together",
+  "main": "index.js",
+  "scripts": {
+    "build": "rollup -c",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wearhere/rollup-plugin-node-resolve-globals.git"
+  },
+  "author": "Jeff Wear <jeff@mixmax.com> (https://mixmax.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wearhere/rollup-plugin-node-resolve-globals/issues"
+  },
+  "homepage": "https://github.com/wearhere/rollup-plugin-node-resolve-globals#readme",
+  "devDependencies": {
+    "rollup": "0.38.0",
+    "rollup-plugin-node-resolve": "2.0.0"
+  }
+}
