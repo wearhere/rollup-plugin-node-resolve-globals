@@ -3,24 +3,15 @@ import nodeResolve from 'rollup-plugin-node-resolve';
 
 export default {
   entry: 'index.js',
+  external: ['jquery'],
   globals: {
-    $: '$'
+    jquery: '$'
   },
   plugins: [
-    // Cases (uncomment code to see):
-
-    // 1. no nodeResolve - works
-
-    // 2. nodeResolve - fails even though it should work?
-    // nodeResolve()
-
-    // 3. nodeResolve with skip - works but should be unnecessary
-    // nodeResolve({
-    //   skip: ['$']
-    // })
+    nodeResolve()
   ],
   targets: [{
-    format: 'es',
+    format: 'iife',
     dest: 'bundle.js'
   }]
 };

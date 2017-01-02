@@ -1,6 +1,7 @@
 # rollup-plugin-node-resolve-globals
 
-Test case for issue using rollup's `globals` option and `rollup-plugin-node-resolve` together: https://github.com/rollup/rollup-plugin-node-resolve/issues/68
+**OBSOLETED**: [This comment](https://github.com/rollup/rollup/issues/1169#issuecomment-268815735)
+addressed my confusion and provided a working configuration. `index.js` and
+`rollup.config.js` demonstrate the suggested configuration.
 
-To reproduce, uncomment the various cases in `rollup.config.js`
-and then run `npm run build`.
+To test, run `npm run build`.
