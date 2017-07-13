@@ -3,7 +3,7 @@ import nodeResolve from 'rollup-plugin-node-resolve';
 
 export default {
   entry: 'index.js',
-  external: ['jquery'],
+  // external: ['jquery'],
   globals: {
     jquery: '$'
   },
