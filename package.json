@@ -18,7 +18,7 @@
   },
   "homepage": "https://github.com/wearhere/rollup-plugin-node-resolve-globals#readme",
   "devDependencies": {
-    "rollup": "0.38.0",
+    "rollup": "^0.45.2",
     "rollup-plugin-node-resolve": "2.0.0"
   }
 }
