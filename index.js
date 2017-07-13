@@ -1,4 +1,4 @@
 /* jshint esnext:true */
-import $ from 'jquery';
+import Handlebars from 'handlebars/runtime';
 
 $(document.body).text('hello world');
