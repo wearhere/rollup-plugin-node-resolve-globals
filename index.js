@@ -1,4 +1,3 @@
 /* jshint esnext:true */
-import $ from 'jquery';
-
-$(document.body).text('hello world');
+import {doSomethingWithHandlebars} from './StringUtils.js';
+console.log(doSomethingWithHandlebars());
